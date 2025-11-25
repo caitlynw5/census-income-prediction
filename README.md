@@ -3,15 +3,12 @@
 This project implements a binary classification model to predict whether an individual's annual income exceeds $50,000 based on census data from 1994. The analysis follows the complete machine learning lifecycle from data exploration through model evaluation and improvement.
 
 ## Problem Statement
-### Objective:### 
-Predict income bracket (≤$50K or >$50K) using demographic and employment features
-### Type:###
-Supervised learning, binary classification
-### Business Value:### 
-This model can help financial institutions assess loan eligibility and risk, while enabling policymakers to understand socioeconomic patterns for better resource allocation and policy development.
+Objective: Predict income bracket (≤$50K or >$50K) using demographic and employment features
+Type: Supervised learning, binary classification
+Business Value: This model can help financial institutions assess loan eligibility and risk, while enabling policymakers to understand socioeconomic patterns for better resource allocation and policy development.
 
 ## Dataset
-###Source:### Census data (1994)
+Source: Census data (1994)
 Size: 32,561 records
 Features: 14 predictive features including age, education, occupation, work hours, marital status, and demographic information
 Target: Binary income classification (75.9% ≤$50K, 24.1% >$50K)
@@ -33,8 +30,8 @@ Gradient Boosting Classifier
 ModelAccuracyROC-AUCPrecision (>50K)Recall (>50K)Logistic Regression85%0.90674%61%Random Forest84%0.89169%63%Gradient Boosting87%0.92379%63%
 
 ## Key Findings
-### Top Predictive Features:### Age, hours per week, capital gain, marital status (married), and education level
-### Best Model:### Gradient Boosting achieved the highest performance with 87% accuracy and 0.923 ROC-AUC score
+Top Predictive Features: Age, hours per week, capital gain, marital status (married), and education level
+Best Model: Gradient Boosting achieved the highest performance with 87% accuracy and 0.923 ROC-AUC score
 Successfully balanced precision and recall for minority class prediction
 
 ## Technologies Used
