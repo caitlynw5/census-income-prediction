@@ -3,12 +3,15 @@
 This project implements a binary classification model to predict whether an individual's annual income exceeds $50,000 based on census data from 1994. The analysis follows the complete machine learning lifecycle from data exploration through model evaluation and improvement.
 
 ## Problem Statement
-### Objective:### Predict income bracket (≤$50K or >$50K) using demographic and employment features
-### Type: Supervised learning, binary classification
-### Business Value: This model can help financial institutions assess loan eligibility and risk, while enabling policymakers to understand socioeconomic patterns for better resource allocation and policy development.
+### Objective:### 
+Predict income bracket (≤$50K or >$50K) using demographic and employment features
+### Type:###
+Supervised learning, binary classification
+### Business Value:### 
+This model can help financial institutions assess loan eligibility and risk, while enabling policymakers to understand socioeconomic patterns for better resource allocation and policy development.
 
 ## Dataset
-Source: Census data (1994)
+###Source:### Census data (1994)
 Size: 32,561 records
 Features: 14 predictive features including age, education, occupation, work hours, marital status, and demographic information
 Target: Binary income classification (75.9% ≤$50K, 24.1% >$50K)
